@@ -1,0 +1,404 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/swiper.js" defer></script>
+    <script src="js/accordion.js" defer></script>
+    <script src="js/modal.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Рекрутинг</title>
+</head>
+<body>
+    <section class="rec__banner">
+        <div class="rec__container">
+            <div class="rec__banner_content">
+                <h1 class="rec__banner_title">
+                    Работа в недвижимости
+                </h1>
+                <h3 class="rec__banner_descr">
+                    с заработной платой без потолка<br>и гибридным графиком
+                </h3>
+                <button class="rec__banner_btn" id="rec__banner_btn">
+                    Стать специалистом по недвижимости
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="rec__why-we">
+        <div class="rec__container">
+            <h2 class="rec__why-we_title">
+                Почему ФОРУМ НЕДВИЖИМОСТЬ?
+            </h2>
+            <h3 class="rec__why-we_descr">
+                агентство недвижимости №1 в Челябинске с опытом более 15 лет!
+            </h3>
+            <div class="rec__why-we_cards">
+                <div class="rec__why-we_row-cards">
+                    <div class="rec__why-we_card" id="rec__why-we_card_1">
+                        <img src="images/icons/1-01.svg" alt="Гибридный график" class="rec__why-we_card_img">
+                        <p class="rec__why-we_card_descr">Гибридный график</p>
+                    </div>
+                    <div class="rec__why-we_card" id="rec__why-we_card_2">
+                        <img src="images/icons/1-02.svg" alt="Помощь юристов, ипотечных брокеров" class="rec__why-we_card_img">
+                        <p class="rec__why-we_card_descr">Помощь юристов,<br>ипотечных брокеров</p>
+                    </div>
+                    <div class="rec__why-we_card" id="rec__why-we_card_3">
+                        <img src="images/icons/1-03.svg" alt="Без потолка в зарплате" class="rec__why-we_card_img">
+                        <p class="rec__why-we_card_descr">Без потолка в зарплате</p>
+                    </div>
+                </div>
+                <div class="rec__why-we_row-cards">
+                    <div class="rec__why-we_card" id="rec__why-we_card_4">
+                        <img src="images/icons/1-04.svg" alt="Работа без опыта" class="rec__why-we_card_img">
+                        <p class="rec__why-we_card_descr">Работа без опыта</p>
+                    </div>
+                    <div class="rec__why-we_card" id="rec__why-we_card_5">
+                        <img src="images/icons/1-05.svg" alt="Рекламная поддержка полностью за счёт компании" class="rec__why-we_card_img">
+                        <p class="rec__why-we_card_descr">Рекламная поддержка<br>полностью за счёт компании</p>
+                    </div>
+                    <div class="rec__why-we_card" id="rec__why-we_card_6">
+                        <img src="images/icons/1-06.svg" alt="Бесплатное обучение" class="rec__why-we_card_img">
+                        <p class="rec__why-we_card_descr">Бесплатное обучение</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rec__become-specialist">
+        <div class="rec__container">
+            <h2 class="rec__become-specialist_title">
+                Как стать специалистом<br>по недвижимости:
+            </h2>
+            <div class="rec__become-specialist_steps">
+                <div class="rec__become-specialist_step" id="rec__become-specialist_step1">
+                    <div class="rec__become-specialist_number-in-circle">
+                        <div class="rec__become-specialist_circle" id="rec__become-specialist_circle1"></div>
+                        <div id="rec__become-specialist_line"></div>
+                        <span class="rec__become-specialist_number">
+                            1
+                        </span>
+                    </div>
+                    <p class="rec__become-specialist_instruction">
+                        Оставьте заявку
+                    </p>
+                    <p class="rec__become-specialist_descr">
+                        Нажмите на кнопку &#171;Записаться на собеседование&#187;<br>и заполните данные. Это займёт не больше минуты.
+                    </p>
+                </div>
+                <div class="rec__become-specialist_step" id="rec__become-specialist_step2">
+                    <div class="rec__become-specialist_number-in-circle">
+                        <div class="rec__become-specialist_circle" id="rec__become-specialist_circle2"></div>
+                        <span class="rec__become-specialist_number">
+                            2
+                        </span>
+                    </div>
+                    <p class="rec__become-specialist_instruction">
+                        Ответьте на звонок
+                    </p>
+                    <p class="rec__become-specialist_descr">
+                        Мы пригласим вас на собеседование<br>в удобное для вас время
+                    </p>
+                </div>
+            </div>
+            <a href="">
+                <button class="rec__become-specialist_btn" id="rec__become-specialist_btn">
+                    Записаться на собеседование
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="rec__location">
+        <div class="rec__container" id="rec__location_container">
+            <h2 class="rec__location_title">
+                Комфортное территориальное<br>расположение офисов
+            </h2>
+            <p class="rec__location_descr">
+                вы можете выбрать удобный адрес и сократить<br>затраты времени на путь до места работы
+            </p>
+            <div class="rec__location_addresses">
+                <div class="rec__location_icon-and-address">
+                    <img class="rec__location_icon" src="images/icons/1-07.svg">
+                    <p class="rec__location_address">
+                        Челябинск, ул. Молодогвардейцев, 53, офис 315
+                    </p>
+                </div>
+                <div class="rec__location_icon-and-address">
+                    <img class="rec__location_icon" src="images/icons/1-07.svg">
+                    <p class="rec__location_address">
+                        Челябинск, Комсомольский проспект, д. 72
+                    </p>
+                </div>
+                <div class="rec__location_icon-and-address">
+                    <img class="rec__location_icon" src="images/icons/1-07.svg">
+                    <p class="rec__location_address">
+                        Челябинск, ул. Красная, 65
+                    </p>
+                </div>
+            </div>
+            <a href="">
+                <button class="rec__location_btn" id="rec__location_btn">
+                    Хочу в команду!
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="rec__other">
+        <div class="rec__container">
+            <h2 class="rec__other_title">
+                Другие вакансии ФОРУМ НЕДВИЖИМОСТЬ
+            </h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rec__other_swiper_title-and-counter">
+                            <h3 class="rec__other_swiper_title">
+                                Руководитель отдела продаж
+                            </h3>
+                            <h3 class="rec__other_swiper_page-counter">
+                                1/3
+                            </h3>
+                        </div>
+                        <p class="rec__other_swiper_top-text">
+                            Основные критерии &#45; позитивный взгляд на жизнь, желание<br>
+                            учиться и придерживаться корпоротивных стандартов, созданных<br>
+                            для обеспечения комфортных условий для эффективной работы.
+                        </p>
+                        <p class="rec__other_swiper_bottom-text">
+                            Если вы лидер, способный обучать, наставлять и достигать результатов<br>
+                            со своей командой &#45; будем рады видеть Вас в должности Руководителя<br>
+                            отдела продаж.
+                        </p>
+                        <div class="rec__other_swiper_button-arrows-wrapper">
+                            <a href="">
+                                <button class="rec__other_swiper_btn" id="rec__other_swiper_btn1">
+                                    Откликнуться
+                                </button>
+                            </a>
+                            <div class="rec__other_swiper_arrows-wrapper">
+                                <div class="rec__other_swiper_circle" ></div>
+                                <div class="rec__other_swiper_circle" ></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rec__other_swiper_title-and-counter">
+                            <h3 class="rec__other_swiper_title">
+                                Руководитель отдела продаж
+                            </h3>
+                            <h3 class="rec__other_swiper_page-counter">
+                                2/3
+                            </h3>
+                        </div>
+                        <p class="rec__other_swiper_top-text">
+                            Основные критерии &#45; позитивный взгляд на жизнь, желание<br>
+                            учиться и придерживаться корпоротивных стандартов, созданных<br>
+                            для обеспечения комфортных условий для эффективной работы.
+                        </p>
+                        <p class="rec__other_swiper_bottom-text">
+                            Если вы лидер, способный обучать, наставлять и достигать результатов<br>
+                            со своей командой &#45; будем рады видеть Вас в должности Руководителя<br>
+                            отдела продаж.
+                        </p>
+                        <div class="rec__other_swiper_button-arrows-wrapper">
+                            <a href="">
+                                <button class="rec__other_swiper_btn" id="rec__other_swiper_btn2">
+                                    Откликнуться
+                                </button>
+                            </a>
+                            <div class="rec__other_swiper_arrows-wrapper">
+                                <div class="rec__other_swiper_circle" ></div>
+                                <div class="rec__other_swiper_circle" ></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rec__other_swiper_title-and-counter">
+                            <h3 class="rec__other_swiper_title">
+                                Руководитель отдела продаж
+                            </h3>
+                            <h3 class="rec__other_swiper_page-counter">
+                                3/3
+                            </h3>
+                        </div>
+                        <p class="rec__other_swiper_top-text">
+                            Основные критерии &#45; позитивный взгляд на жизнь, желание<br>
+                            учиться и придерживаться корпоротивных стандартов, созданных<br>
+                            для обеспечения комфортных условий для эффективной работы.
+                        </p>
+                        <p class="rec__other_swiper_bottom-text">
+                            Если вы лидер, способный обучать, наставлять и достигать результатов<br>
+                            со своей командой &#45; будем рады видеть Вас в должности Руководителя<br>
+                            отдела продаж.
+                        </p>
+                        <div class="rec__other_swiper_button-arrows-wrapper">
+                            <a href="">
+                                <button class="rec__other_swiper_btn" id="rec__other_swiper_btn3">
+                                    Откликнуться
+                                </button>
+                            </a>
+                            <div class="rec__other_swiper_arrows-wrapper">
+                                <div class="rec__other_swiper_circle" ></div>
+                                <div class="rec__other_swiper_circle" ></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rec__learning">
+        <div class="rec__container" id="rec__learning_container">
+            <div class="rec__learning_wrapper">
+                <div class="rec__learning_left-wrapper">
+                    <h2 class="rec__learning_left-title">
+                        Бесплатное обучение<br>для наших специалистов
+                    </h2>
+                    <h3 class="rec__learning_left-descr">
+                        Если вы хотите:
+                    </h3>
+                    <div class="rec__learning_left-list-item">
+                        <img src="images/icons/1-10.svg" alt="&#10003;">
+                        <p>Самостоятельно планирвоать рабочий день,<br>удачно вписывая в него личные интересы</p>
+                    </div>
+                    <div class="rec__learning_left-list-item">
+                        <img src="images/icons/1-10.svg" alt="&#10003;">
+                        <p>Ежедневно знакомиться, общаться<br>с разными людьми и помогать им</p>
+                    </div>
+                    <div class="rec__learning_left-list-item">
+                        <img src="images/icons/1-10.svg" alt="&#10003;">
+                        <p>Уровень зарплаты зависит только<br>от вас и не имеет потолка</p>
+                    </div>
+                    <div class="rec__learning_left-list-item">
+                        <img src="images/icons/1-10.svg" alt="&#10003;">
+                        <p>Рационально распределять нагрузку</p>
+                    </div>
+                </div>
+                <div class="rec__learning_right-wrapper">
+                    <p class="rec__learning_right-descr">обучающий курс<br>для специалистов по недвижимости</p>
+                    <h2 class="rec__learning_right-title">ТЕХНОЛОГИЯ 2.0</h2>
+                    <div id="rec__learning_right-bg-line"></div>
+                    <ul class="rec__learning_right-list">
+                        <li>5 дней интенсива</li>
+                        <li>10 спикеров</li>
+                        <li>Тренер-наставник</li>
+                        <li>17 обучающих блоков</li>
+                        <li>Учебные материалы</li>
+                    </ul>
+                    <a href="">
+                        <button class="rec__learning_btn" id="rec__learning_btn">
+                            Пройти обучение
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rec__reviews">
+        <div class="rec__container">
+            <div class="swiper">
+                <h2 class="rec__reviews_title">
+                    Отзывы наших специалистов
+                </h2>
+                <div class="rec__reviews_arrows-wrapper">
+                    <div class="rec__reviews_swiper_circle" ></div>
+                    <div class="rec__reviews_swiper_circle" ></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rec__reviews_video-wrapper">
+                             <div class="rec__reviews_video_bg"></div>
+                            <video class="rec__reviews_video" src="videos/IMG_9373.mp4" controls></video>
+                            <h3 class="rec__reviews_video_title">Евдокимова Александра,</h3>
+                            <p class="rec__reviews_video_descr">Бизнес тренер</p>
+                        </div>
+                        <div class="rec__reviews_video-wrapper">
+                             <div class="rec__reviews_video_bg"></div>
+                            <video class="rec__reviews_video" src="videos/IMG_9362.mp4" controls></video>
+                            <h3 class="rec__reviews_video_title">Сатяев Иван,</h3>
+                            <p class="rec__reviews_video_descr">Директор по продажам</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rec__reviews_btn_wrapper">
+                <a href="">
+                    <button class="rec__reviews_btn" id="rec__reviews_btn">
+                        Хочу в команду!
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="rec__questions">
+        <div class="rec__container">
+            <h2 class="rec__questions_title">
+                Частые вопросы
+            </h2>
+            <div class="rec__questions_accordions_wrapper">
+                <div class="rec__questions_accordion_wrapper">
+                    <p>Что будет после того, как я оставлю заявку?</p>
+                    <img src="images/icons/1-13.svg" alt="Открыть">
+                </div>
+                <div class="rec__questions_accordion_content">
+                    Ничего страшного в этом нет!<br>
+                    В нашей команде работает корпоративный тренер и есть свой Учебный Центр, где обучаются все новички,<br>
+                    в том числе, без опыта работы.<br>
+                    Подробнее об Учебном Центре вы можете узнать здесь<br>
+                </div>
+                <div class="rec__questions_accordion_wrapper">
+                    <p>Что будет после того, как я оставлю заявку?</p>
+                    <img src="images/icons/1-13.svg" alt="Открыть">
+                </div>
+                <div class="rec__questions_accordion_content">
+                    Ничего страшного в этом нет!<br>
+                    В нашей команде работает корпоративный тренер и есть свой Учебный Центр, где обучаются все новички,<br>
+                    в том числе, без опыта работы.<br>
+                    Подробнее об Учебном Центре вы можете узнать здесь<br>
+                </div>
+                <div class="rec__questions_accordion_wrapper">
+                    <p>Что будет после того, как я оставлю заявку?</p>
+                    <img src="images/icons/1-13.svg" alt="Открыть">
+                </div>
+                <div class="rec__questions_accordion_content">
+                    Ничего страшного в этом нет!<br>
+                    В нашей команде работает корпоративный тренер и есть свой Учебный Центр, где обучаются все новички,<br>
+                    в том числе, без опыта работы.<br>
+                    Подробнее об Учебном Центре вы можете узнать здесь<br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="rec__modal-form" class="rec__modal-form">
+        <div class="rec__modal-form_content">
+            <h3 class="rec__modal-form_title">Стать специалистом<br>по недвижимости</h3>
+            <p class="rec__modal-form_descr">Отправьте заявку и получите приглашение на собеседование</p>
+            <span class="rec__modal-form_close">
+                <img src="images/icons/1-15.svg" alt="Закрыть">
+            </span>
+            <form id="rec__modal-form_form" class="rec__modal-form_form">
+                <div class="rec__modal-form_inputs-wrapper">
+                    <input id="rec__modal-form_form_input-name" class="rec__modal-form_form_input" name="name" type="text" placeholder="Имя *">
+                    <input id="rec__modal-form_form_input-phone" class="rec__modal-form_form_input" name="phone" type="text" placeholder="Телефон *">
+                </div>
+                <button id="rec__modal-form_form_button" class="rec__modal-form_form_button" type="submit">Отправить заявку</button>
+            </form>
+
+            <p class="rec__modal-form_agreement">Нажимая на кнопку, я подтверждаю согласие <a target="_blank" href="https://forumreal.ru/about/privacy-policy/">на правила</a></p>
+        </div>
+    </div>
+</body>
+</html>
